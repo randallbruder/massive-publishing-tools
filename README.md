@@ -40,3 +40,8 @@ To run a script, make sure you have the InDesign document you want to export cur
 
 - [ ] Include the InDesign template files and rename the repo
 - [ ] Add error checking to the **Export Cover Variants** scripts to notify the user if a cover page is missing the `appliedSection.marker`
+- [ ] Eventually rename everything to Massive
+	- [ ] The repo name
+	- [ ] Export Presets
+	- [ ] `hv_preset_name` and `transcon_preset_name` variables in each script
+	- [ ] This [README.md](README.md) file
