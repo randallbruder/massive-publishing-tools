@@ -1,6 +1,13 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/whatnot_white.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/whatnot_black.png">
+  <img alt="Whatnot Publishing Logo" src="https://files.rb.gd/whatnot_black.png" width="200">
+</picture>
+
+
 # Whatnot Publishing Tools
 
-This is a collection of scripts for use with Adobe InDesign to help facilitate exporting InDesign builds to the necessary files/formats for the **Print Ready Files** folder.
+This is a collection of scripts, export presets, and templates for use with Adobe InDesign and Photoshop to help facilitate print production work on Whatnot Publishing comics.
 
 ## Installation (macOS)
 
