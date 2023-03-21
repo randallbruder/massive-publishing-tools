@@ -30,7 +30,7 @@ You will need to create the **Whatnot Publishing** folder inside the **Scripts P
 > The year in that path will differ depending on which version of Adobe InDesign you have installed.
 
 > **Warning**
-When upgrading from a previous year's InDesign release to a new InDesign release, the scripts will have to be copied over. For example, after uninstalling 
+When upgrading from a previous year's InDesign release to a new InDesign release, the scripts will have to be copied over.
 
 ### Export Presets
 
@@ -40,6 +40,17 @@ You can import the presets (or rename your existing presets) in InDesign by sele
 	
 * Use the <ins>Edit…</ins> button to rename your existing 
 * or <ins>Load…</ins> to import the two `.joboptions` files found in the [Export Presets](/Export%20Presets/) folder.
+
+### Preflight Profile
+
+One of the included tools is a Preflight profile for Whatnot Publishing comics, that is more aggressive than InDesign's default Preflight profile and can help catch more errors before exporting.
+
+To install:
+
+* In InDesign open the Preflight panel (found under <ins>Window</ins> → <ins>Output</ins> → <ins>Preflight</ins>)
+* From the panel's menu (≡) select <ins>Define Profiles…</ins>
+* In the Preflight Profiles window that appears, again select the menu (≡) and choose <ins>Load Profile…</ins>
+* Then select the `.idpp` file found in the [Preflight Profile](/Preflight%20Profile/) folder
 
 ## Usage
 
@@ -51,6 +62,7 @@ To run a script, make sure you have the InDesign document you want to export cur
 ## To-do
 
 - [X] Include the InDesign template files and rename the repo
+- [ ] See if you can key into the Preflight checks, and show a warning if a user tries to run an export while the Preflight is reporting an error
 - [ ] Add error checking to the **Export Cover Variants** scripts to notify the user if a cover page is missing the `appliedSection.marker`
 - [ ] Eventually rename everything to Massive:
 	- [ ] The repo name
