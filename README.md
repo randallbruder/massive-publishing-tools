@@ -4,10 +4,11 @@
 	<picture>
 		<source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/whatnot_white.png">
 		<source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/whatnot_black.png">
-		<img alt="Whatnot Publishing Logo" src="https://files.rb.gd/whatnot_black.png" width="200">
+		<img alt="Whatnot Publishing Logo" src="https://files.rb.gd/whatnot_black.png" width="250">
 	</picture>
 </p>
 
+&nbsp;
 
 # Whatnot Publishing Tools
 
