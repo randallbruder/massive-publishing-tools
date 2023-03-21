@@ -1,4 +1,4 @@
-<p align="center">
+<p align="center" style="margin-top: 15px;">
 	<picture>
 		<source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/whatnot_white.png">
 		<source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/whatnot_black.png">
