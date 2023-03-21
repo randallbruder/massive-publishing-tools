@@ -1,4 +1,4 @@
-# Whatnot Publishing InDesign Scripts
+# Whatnot Publishing Tools
 
 This is a collection of scripts for use with Adobe InDesign to help facilitate exporting InDesign builds to the necessary files/formats for the **Print Ready Files** folder.
 
