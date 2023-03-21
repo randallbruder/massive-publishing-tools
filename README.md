@@ -13,7 +13,7 @@ This is a collection of scripts, export presets, and templates for use with Adob
 
 ### Scripts
 
-Move all five script files (`.jsx`) to:
+Move all five script files (`.jsx`) in the [Scripts](/Scripts/) folder to:
 
 ```
 /Applications/Adobe InDesign 2023/Scripts/Scripts Panel/Whatnot Publishing/
@@ -34,11 +34,11 @@ All scripts require having two export presets named exactly `Whatnot Publishing 
 You can import the presets (or rename your existing presets) in InDesign by selecting in the menu <ins>File</ins> → <ins>Adobe PDF Presets</ins> → <ins>Define…</ins> and
 	
 * Use the <ins>Edit…</ins> button to rename your existing 
-* or <ins>Load…</ins> to import the two `.joboptions` files one at a time.
+* or <ins>Load…</ins> to import the two `.joboptions` files found in the [Export Presets](/Export%20Presets/) folder.
 
 ## Usage
 
-Script can be run using the Scripts panel in InDesign. If you don't already have the panel open as part of your workspace, you can find it in the menu under <ins>Window</ins> → <ins>Utilities</ins> → <ins>Scripts</ins>. There you'll be able to find the **Whatnot Publishing** folder of scripts under the **Application** folder.
+A script can be run using the Scripts panel in InDesign. If you don't already have the panel open as part of your workspace, you can find it in the menu under <ins>Window</ins> → <ins>Utilities</ins> → <ins>Scripts</ins>. There you'll be able to find the **Whatnot Publishing** folder of scripts under the **Application** folder.
 
 To run a script, make sure you have the InDesign document you want to export currently open and focused. Then double-click the script you want to use in the Scripts panel.
 
