@@ -63,6 +63,7 @@ To run a script, make sure you have the InDesign document you want to export cur
 
 - [X] Include the InDesign template files and rename the repo
 - [ ] See if you can key into the Preflight checks, and show a warning if a user tries to run an export while the Preflight is reporting an error
+	- [ ] If possible, use specifically the "Whatnot Publishing" preflight profile, even if it's not the currently selected profile
 - [ ] Add error checking to the **Export Cover Variants** scripts to notify the user if a cover page is missing the `appliedSection.marker`
 - [ ] Eventually rename everything to Massive:
 	- [ ] The repo name
