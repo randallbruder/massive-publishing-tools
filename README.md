@@ -1,8 +1,10 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/whatnot_white.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/whatnot_black.png">
-  <img alt="Whatnot Publishing Logo" src="https://files.rb.gd/whatnot_black.png" width="200">
-</picture>
+<p align="center">
+	<picture>
+		<source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/whatnot_white.png">
+		<source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/whatnot_black.png">
+		<img alt="Whatnot Publishing Logo" src="https://files.rb.gd/whatnot_black.png" width="200">
+	</picture>
+</p>
 
 
 # Whatnot Publishing Tools
@@ -47,7 +49,7 @@ To run a script, make sure you have the InDesign document you want to export cur
 
 - [X] Include the InDesign template files and rename the repo
 - [ ] Add error checking to the **Export Cover Variants** scripts to notify the user if a cover page is missing the `appliedSection.marker`
-- [ ] Eventually rename everything to Massive
+- [ ] Eventually rename everything to Massive:
 	- [ ] The repo name
 	- [ ] Export Presets
 	- [ ] `hv_preset_name` and `transcon_preset_name` variables in each script
