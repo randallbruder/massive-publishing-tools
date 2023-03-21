@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.0.7] - 2023-03-21
+
+### Added
+
+- Added InDesign templates
+- Added Trade Dressing Photoshop template
+
+### Changed
+
+- Organized everything into folders a bit better
+
 ## [1.0.6] - 2023-03-20
 
 ### Changed
