@@ -1,7 +1,7 @@
 // Export Inside Cover C2 C3.jsx
 // An InDesign Script for Whatnot Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Export Inside Cover C2 C3.jsx" 1.0.6 20 March 2023
+* @@@BUILDINFO@@@ "Export Inside Cover C2 C3.jsx" 1.0.8 20 March 2023
 */
 
 main();
@@ -30,6 +30,13 @@ function main() {
 		return;
 	}
 	
+	// Check and see if there is a Preflight Profile with the name Whatnot Publishing
+	var preflight_profile_name = "Whatnot Publishing";
+	if (!app.preflightProfiles.itemByName(preflight_profile_name).isValid) {
+		alert("Error\r\nA Preflight Profile with the name \"" + preflight_profile_name + "\" was not found. Please make sure you install the preflight profile before running any of these export scripts.");
+		return;
+	}
+	
 	// Check and see if an InDesign document is open
 	if (app.documents.length == 0) {
 		alert("Error\r\nPlease have the InDesign document you want to export open in InDesign before running this script.", "", true);
@@ -54,6 +61,20 @@ function main() {
 	if (!current_document_lowercase_name.includes("inside cover")) {
 		if (confirm("Are you sure you're running the right export script?\r\nThis document doesn't include 'Inside Cover' in its filename.")) {
 		} else { return; }
+	}
+	
+	// Check and see if there are any Preflight errors, using the `preflight_profile_name` Profile
+	var preflight_checker = app.preflightProcesses.add(current_document, app.preflightProfiles.itemByName(preflight_profile_name)); // Set the preflight var
+	preflight_checker.waitForProcess(); // Don't process the results until it has finished running
+	var preflight_results = preflight_checker.aggregatedResults[2]; // Store the results in a variable
+	
+	if (preflight_results.length > 0) {
+		if (confirm("Error\r\nThis document has Preflight errors. Are you sure you want to continue the export?", true)) {
+		} else {
+			// Open the Preflight panel and exit the script
+			app.panels.item('Preflight Panel').visible = true;
+			return;
+		}
 	}
 
 	// Ask user to select a folder to save the PDFs to
@@ -138,8 +159,7 @@ function main() {
 		}
 		
 		// Open the Background Tasks panel
-		var background_tasks_panel = app.panels.item('Background Tasks');
-		background_tasks_panel.visible = true;
+		app.panels.item('Background Tasks').visible = true;
 	}
 
 };

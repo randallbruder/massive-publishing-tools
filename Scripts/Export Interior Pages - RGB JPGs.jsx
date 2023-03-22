@@ -1,7 +1,7 @@
 // Export Interior Pages - RGB JPGs.jsx
 // An InDesign Script for Whatnot Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Export Interior Pages - RGB JPGs.jsx" 1.0.6 20 March 2023
+* @@@BUILDINFO@@@ "Export Interior Pages - RGB JPGs.jsx" 1.0.8 20 March 2023
 */
 
 main();
@@ -23,6 +23,13 @@ function main() {
 		return this.indexOf(search, start) !== -1;
 	};
 	
+	// Check and see if there is a Preflight Profile with the name Whatnot Publishing
+	var preflight_profile_name = "Whatnot Publishing";
+	if (!app.preflightProfiles.itemByName(preflight_profile_name).isValid) {
+		alert("Error\r\nA Preflight Profile with the name \"" + preflight_profile_name + "\" was not found. Please make sure you install the preflight profile before running any of these export scripts.");
+		return;
+	}
+	
 	// Get the active document
 	var current_document = app.activeDocument;
 	var current_document_lowercase_name = current_document.name.toLowerCase();
@@ -32,6 +39,20 @@ function main() {
 		
 		if (confirm("Are you sure you're running the right export script?\r\nThis document doesn't include the word 'Interior' in its filename.")) {
 		} else { return; }
+	}
+	
+	// Check and see if there are any Preflight errors, using the `preflight_profile_name` Profile
+	var preflight_checker = app.preflightProcesses.add(current_document, app.preflightProfiles.itemByName(preflight_profile_name)); // Set the preflight var
+	preflight_checker.waitForProcess(); // Don't process the results until it has finished running
+	var preflight_results = preflight_checker.aggregatedResults[2]; // Store the results in a variable
+	
+	if (preflight_results.length > 0) {
+		if (confirm("Error\r\nThis document has Preflight errors. Are you sure you want to continue the export?", true)) {
+		} else {
+			// Open the Preflight panel and exit the script
+			app.panels.item('Preflight Panel').visible = true;
+			return;
+		}
 	}
 	
 	// Ask user to select a folder to save the PDFs to

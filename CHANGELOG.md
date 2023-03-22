@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.8] - 2023-03-22
+
+### Added
+
+- All scripts check and see if a "Whatnot Publishing" preflight profile is installed
+- Added error checking to all scripts to see if there are any Preflight errors, using the "Whatnot Publishing" preflight profile
+
 ## [1.0.7] - 2023-03-21
 
 ### Added
