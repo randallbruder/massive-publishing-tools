@@ -2,9 +2,9 @@
 
 <p align="center">
 	<picture>
-		<source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/whatnot_white.png">
-		<source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/whatnot_black.png">
-		<img alt="Whatnot Publishing Logo" src="https://files.rb.gd/whatnot_black.png" width="250">
+		<source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/whatnot_white.svg">
+		<source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/whatnot_black.svg">
+		<img alt="Whatnot Publishing Logo" src="https://files.rb.gd/whatnot_black.svg" width="250">
 	</picture>
 </p>
 
