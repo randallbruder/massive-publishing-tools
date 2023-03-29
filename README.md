@@ -38,7 +38,7 @@ All scripts require having two export presets named exactly `Whatnot Publishing 
 
 You can import the presets (or rename your existing presets) in InDesign by selecting in the menu <ins>File</ins> → <ins>Adobe PDF Presets</ins> → <ins>Define…</ins> and
 	
-* Use the <picture style="position: relative; top: 4px; margin: 0 3px 0 2px;"><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/indesign_button_edit.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/indesign_button_edit.svg"><img src="https://files.rb.gd/indesign_button_edit.svg" width="60" /></picture> button to rename your existing presets to the correct names,
+* Use the <div style="display: inline-block; position: relative; top: 4px; margin: 0 3px 0 2px;"><picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/indesign_button_edit.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/indesign_button_edit.svg"><img src="https://files.rb.gd/indesign_button_edit.svg" width="60" /></picture></div> button to rename your existing presets to the correct names,
 * or <picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/indesign_button_load.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/indesign_button_load.svg"><img src="https://files.rb.gd/indesign_button_load.svg" width="60" style="position: relative; top: 4px; margin: 0 3px 0 2px;" /></picture> to import the two `.joboptions` files found in the [Export Presets](/Export%20Presets/) folder.
 
 ### <picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/preflight_profile.png"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/preflight_profile.png"><img src="https://files.rb.gd/preflight_profile.png" width="24" style="position: relative; top: 5px;" /></picture> Preflight Profile
@@ -48,8 +48,8 @@ One of the included tools is a Preflight profile for Whatnot Publishing comics, 
 To install:
 
 * In InDesign, open the Preflight panel (found under <ins>Window</ins> → <ins>Output</ins> → <ins>Preflight</ins>)
-* From the panel's menu (<picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/indesign_menu.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/indesign_menu.svg"><img src="https://files.rb.gd/indesign_menu.svg" width="10" style="position: relative; bottom: 1px; margin: 0 3px 0 2px;" /></picture>) select <ins>Define Profiles…</ins>
-* In the Preflight Profiles window that appears, again select the menu (<picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/indesign_menu.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/indesign_menu.svg"><img src="https://files.rb.gd/indesign_menu.svg" width="10" style="position: relative; bottom: 1px; margin: 0 3px 0 2px;" /></picture>) and choose <ins>Load Profile…</ins>
+* From the panel's menu (<picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/indesign_menu_white.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/indesign_menu.svg"><img src="https://files.rb.gd/indesign_menu.svg" width="10" style="position: relative; bottom: 1px; margin: 0 3px 0 2px;" /></picture>) select <ins>Define Profiles…</ins>
+* In the Preflight Profiles window that appears, again select the menu (<picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/indesign_menu_white.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/indesign_menu.svg"><img src="https://files.rb.gd/indesign_menu.svg" width="10" style="position: relative; bottom: 1px; margin: 0 3px 0 2px;" /></picture>) and choose <ins>Load Profile…</ins>
 * Then select the `.idpp` file found in the [Preflight Profile](/Preflight%20Profile/) folder
 
 ## Usage
