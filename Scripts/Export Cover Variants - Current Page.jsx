@@ -1,7 +1,7 @@
 // Export Cover Variants - Current Page.jsx
 // An InDesign Script for Whatnot Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Export Cover Variants - Current Page.jsx" 1.0.8 20 March 2023
+* @@@BUILDINFO@@@ "Export Cover Variants - Current Page.jsx" 1.0.9 29 March 2023
 */
 
 main();
@@ -76,6 +76,26 @@ function main() {
 			return;
 		}
 	}
+	
+	// Get the currently selected page number
+	var current_page_number = app.activeWindow.activePage.documentOffset + 1;
+	
+	// From the currently selected page, first determine if it's the cover page (odd number) or the back cover (even number.)
+	// Then get the cover page and the page just before that cover page.
+	if (current_page_number % 2 == 0) {
+		var current_page = current_document.pages[current_page_number-2];
+		var previous_page = current_document.pages[current_page_number-3];
+	} else {
+		var current_page = current_document.pages[current_page_number-1];
+		var previous_page = current_document.pages[current_page_number-2];
+	}
+	
+	// Check and see if the page before the cover page's applied section matches the cover page's applied section.
+	// If they match, that means the current page does not start a new section.
+	if (previous_page.appliedSection === current_page.appliedSection) {
+		alert("Error\r\nThe cover you're trying to export doesn't start a new section, which is important for knowing how to name the exported PDF files.\r\n\r\nFor help, reference the \"Setting a cover name\" text to the left of the page on the cover page.");
+		return;
+	}
 
 	// Ask user to select a folder to save the PDFs to
 	var export_folder = Folder.selectDialog("Select a folder to save the PDFs to.\r\n\r\nChoose the root folder, Hero & Villain and Transcon versions will be saved into folders named HV and Transcon automatically.");
@@ -89,9 +109,6 @@ function main() {
 		
 		var transcon_folder = new Folder(export_folder + "/Transcon/");
 		if (!transcon_folder.exists) { transcon_folder.create(); }
-	
-		// Get the currently selected page number
-		var current_page_number = app.activeWindow.activePage.documentOffset + 1;
 		
 		// Get the section marker name
 		var section_marker_name = current_document.pages[current_page_number - 1].appliedSection.marker;

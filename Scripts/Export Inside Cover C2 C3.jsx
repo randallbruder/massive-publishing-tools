@@ -1,7 +1,7 @@
 // Export Inside Cover C2 C3.jsx
 // An InDesign Script for Whatnot Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Export Inside Cover C2 C3.jsx" 1.0.8 20 March 2023
+* @@@BUILDINFO@@@ "Export Inside Cover C2 C3.jsx" 1.0.9 29 March 2023
 */
 
 main();

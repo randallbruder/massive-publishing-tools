@@ -58,13 +58,16 @@ A script can be run using the Scripts panel in InDesign. If you don't already ha
 
 To run a script, make sure you have the InDesign document you want to export currently open and focused. Then double-click the script you want to use in the Scripts panel.
 
+> **Note**
+> Exporting JPGs doesn't support asynchronous exporting in the background tasks panel. When you run the [Export Interior Pages - RGB JPGs.jsx](/Scripts/Export%20Interior%20Pages%20-%20RGB%20JPGs.jsx) script, InDesign will appear to freeze while it runs the export, which can take several minutes. You can open the folder you selected to export the RGB JPGs into, and see the files get created to track the progress of the export.
+
 
 ## To-do
 
-- [X] Include the InDesign template files and rename the repo
-- [X] See if you can key into the Preflight checks, and show a warning if a user tries to run an export while the Preflight is reporting an error
-	- [X] If possible, use specifically the "Whatnot Publishing" preflight profile, even if it's not the currently selected profile
-- [ ] Add error checking to the **Export Cover Variants** scripts to notify the user if a cover page is missing the `appliedSection.marker`
+- [X] ~~Include the InDesign template files and rename the repo~~
+- [X] ~~See if you can key into the Preflight checks, and show a warning if a user tries to run an export while the Preflight is reporting an error~~
+	- [X] ~~If possible, use specifically the "Whatnot Publishing" preflight profile, even if it's not the currently selected profile~~
+- [X] ~~Add error checking to the **Export Cover Variants** scripts to notify the user if a cover page is missing the `appliedSection.marker`~~
 - [ ] Eventually rename everything to Massive:
 	- [ ] The repo name
 	- [ ] Export Presets

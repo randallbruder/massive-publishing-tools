@@ -1,7 +1,7 @@
 // Export Cover Variants - All.jsx
 // An InDesign Script for Whatnot Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Export Cover Variants - All.jsx" 1.0.8 20 March 2023
+* @@@BUILDINFO@@@ "Export Cover Variants - All.jsx" 1.0.9 29 March 2023
 */
 
 main();
@@ -76,6 +76,35 @@ function main() {
 			return;
 		}
 	}
+	
+	// Get number of pages in the document
+	var num_pages = current_document.pages.length;
+	
+	// First loop through every two pages to check and see if every odd page (the cover page) starts a new section
+	// We can skip over the first spread, since it's impossible for the first page of a document to not start a section
+	var pages_that_dont_start_new_sections = [];
+	for (var i = 2; i < num_pages; i += 2) {
+		
+		// Get the current page and the previous page
+		var current_page = current_document.pages[i];
+		var previous_page = current_document.pages[i-1];
+		
+		// Check and see if the previous page's applied section matches the current page's applied section.
+		// If they match, that means the current page does not start a new section.
+		if (previous_page.appliedSection === current_page.appliedSection) {
+			pages_that_dont_start_new_sections.push(i+1);
+		}
+	}
+	
+	// If we found any cover pages in the last loop that don't start a new section, then show an error with information
+	if (pages_that_dont_start_new_sections.length > 1) {
+		var pages_string = pages_that_dont_start_new_sections.slice(0, -1).join(", ") + " and " + pages_that_dont_start_new_sections.slice(-1);
+		alert("Error\r\nSome covers in this document don't start a new section, which is important for knowing how to name the exported PDF files.\r\n\r\nCheck pages " + pages_string + " and apply new sections to each of them.\r\n\r\nFor help, reference the \"Setting a cover name\" text to the left of the page on the cover pages.");
+		return;
+	} else if (pages_that_dont_start_new_sections.length = 1) {
+		alert("Error\r\nA cover in this document doesn't start a new section, which is important for knowing how to name the exported PDF files.\r\n\r\n Check page " + pages_that_dont_start_new_sections.join("") + " and apply a new section to it.\r\n\r\nFor help, reference the \"Setting a cover name\" text to the left of the page on the cover page.");
+		return;
+	}
 
 	// Ask user to select a folder to save the PDFs to
 	var export_folder = Folder.selectDialog("Select a folder to save the PDFs to.\r\n\r\nChoose the root issue folder, Hero & Villain and Transcon versions will be saved into subfolders named HV and Transcon automatically.");
@@ -89,11 +118,8 @@ function main() {
 		
 		var transcon_folder = new Folder(export_folder + "/Transcon/");
 		if (!transcon_folder.exists) { transcon_folder.create(); }
-	
-		// Get number of pages in the document
-		var num_pages = current_document.pages.length;
 		
-		// Loop through every two pages and export as separate PDFs
+		// Again loop through every two pages, this time export as separate PDFs
 		for (var i=0; i<num_pages; i+=2) {
 			
 			// Get the section marker name

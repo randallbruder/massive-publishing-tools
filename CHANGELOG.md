@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.9] - 2023-03-29
+
+### Added
+
+- Export Cover Variants scripts now check to make sure cover pages start a new section in InDesign, which informative error messages if the script finds cover page(s) that don't.
+
 ## [1.0.8] - 2023-03-22
 
 ### Added
