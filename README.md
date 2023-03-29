@@ -12,7 +12,7 @@
 
 # Whatnot Publishing Tools
 
-This is a collection of scripts, export presets, and templates for use with Adobe InDesign and Photoshop to help facilitate print production work on Whatnot Publishing comics.
+This is a collection of scripts, export presets, templates, and a preflight profile for use with Adobe InDesign and Adobe Photoshop to help facilitate print production work on Whatnot Publishing comics.
 
 ## Installation (macOS)
 
@@ -38,8 +38,8 @@ All scripts require having two export presets named exactly `Whatnot Publishing 
 
 You can import the presets (or rename your existing presets) in InDesign by selecting in the menu <ins>File</ins> → <ins>Adobe PDF Presets</ins> → <ins>Define…</ins> and
 	
-* Use the <ins>Edit…</ins> button to rename your existing 
-* or <ins>Load…</ins> to import the two `.joboptions` files found in the [Export Presets](/Export%20Presets/) folder.
+* Use the <img src="https://files.rb.gd/indesign_button_edit.svg" width="60" style="position: relative; top: 4px; margin: 0 3px 0 2px;" /> button to rename your existing presets to the correct names,
+* or <img src="https://files.rb.gd/indesign_button_load.svg" width="60" style="position: relative; top: 4px; margin: 0 3px 0 2px;" /> to import the two `.joboptions` files found in the [Export Presets](/Export%20Presets/) folder.
 
 ### <img src="https://files.rb.gd/preflight_profile.png" width="24" style="position: relative; top: 5px;" /> Preflight Profile
 
@@ -47,9 +47,9 @@ One of the included tools is a Preflight profile for Whatnot Publishing comics, 
 
 To install:
 
-* In InDesign open the Preflight panel (found under <ins>Window</ins> → <ins>Output</ins> → <ins>Preflight</ins>)
-* From the panel's menu (≡) select <ins>Define Profiles…</ins>
-* In the Preflight Profiles window that appears, again select the menu (≡) and choose <ins>Load Profile…</ins>
+* In InDesign, open the Preflight panel (found under <ins>Window</ins> → <ins>Output</ins> → <ins>Preflight</ins>)
+* From the panel's menu (<img src="https://files.rb.gd/indesign_menu.svg" width="10" style="position: relative; bottom: 1px; margin: 0 3px 0 2px;" />) select <ins>Define Profiles…</ins>
+* In the Preflight Profiles window that appears, again select the menu (<img src="https://files.rb.gd/indesign_menu.svg" width="10" style="position: relative; bottom: 1px; margin: 0 3px 0 2px;" />) and choose <ins>Load Profile…</ins>
 * Then select the `.idpp` file found in the [Preflight Profile](/Preflight%20Profile/) folder
 
 ## Usage
