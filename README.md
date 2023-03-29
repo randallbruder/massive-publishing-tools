@@ -48,8 +48,8 @@ One of the included tools is a Preflight profile for Whatnot Publishing comics, 
 To install:
 
 * In InDesign, open the Preflight panel (found under <ins>Window</ins> → <ins>Output</ins> → <ins>Preflight</ins>)
-* From the panel's menu ( <picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/indesign_menu_white.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/indesign_menu.svg"><img src="https://files.rb.gd/indesign_menu.svg" width="10" /></picture> ) select <ins>Define Profiles…</ins>
-* In the Preflight Profiles window that appears, again select the menu ( <picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/indesign_menu_white.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/indesign_menu.svg"><img src="https://files.rb.gd/indesign_menu.svg" width="10" /></picture> ) and choose <ins>Load Profile…</ins>
+* From the panel's menu ( <picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/indesign_menu.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/indesign_menu.svg"><img src="https://files.rb.gd/indesign_menu.svg" width="10" /></picture> ) select <ins>Define Profiles…</ins>
+* In the Preflight Profiles window that appears, again select the menu ( <picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/indesign_menu.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/indesign_menu.svg"><img src="https://files.rb.gd/indesign_menu.svg" width="10" /></picture> ) and choose <ins>Load Profile…</ins>
 * Then select the `.idpp` file found in the [Preflight Profile](/Preflight%20Profile/) folder
 
 ## Usage
