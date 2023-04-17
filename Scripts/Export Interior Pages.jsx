@@ -1,7 +1,7 @@
 // Export Interior Pages.jsx
 // An InDesign Script for Whatnot Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Export Interior Pages.jsx" 1.0.9 29 March 2023
+* @@@BUILDINFO@@@ "Export Interior Pages.jsx" 1.0.10 17 April 2023
 */
 
 main();

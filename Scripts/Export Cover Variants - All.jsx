@@ -1,7 +1,7 @@
 // Export Cover Variants - All.jsx
 // An InDesign Script for Whatnot Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Export Cover Variants - All.jsx" 1.0.9 29 March 2023
+* @@@BUILDINFO@@@ "Export Cover Variants - All.jsx" 1.0.10 17 April 2023
 */
 
 main();
@@ -101,7 +101,7 @@ function main() {
 		var pages_string = pages_that_dont_start_new_sections.slice(0, -1).join(", ") + " and " + pages_that_dont_start_new_sections.slice(-1);
 		alert("Error\r\nSome covers in this document don't start a new section, which is important for knowing how to name the exported PDF files.\r\n\r\nCheck pages " + pages_string + " and apply new sections to each of them.\r\n\r\nFor help, reference the \"Setting a cover name\" text to the left of the page on the cover pages.");
 		return;
-	} else if (pages_that_dont_start_new_sections.length = 1) {
+	} else if (pages_that_dont_start_new_sections.length == 1) {
 		alert("Error\r\nA cover in this document doesn't start a new section, which is important for knowing how to name the exported PDF files.\r\n\r\n Check page " + pages_that_dont_start_new_sections.join("") + " and apply a new section to it.\r\n\r\nFor help, reference the \"Setting a cover name\" text to the left of the page on the cover page.");
 		return;
 	}

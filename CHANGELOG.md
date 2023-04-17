@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.10] - 2023-04-17
+
+### Fixed
+
+- Fixed a bad comparison that only used a single `=`, instead of the proper `==`.
+
 ## [1.0.9] - 2023-03-29
 
 ### Added
