@@ -1,7 +1,7 @@
 // Export Interior Pages - RGB JPGs.jsx
 // An InDesign Script for Whatnot Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Export Interior Pages - RGB JPGs.jsx" 1.0.10 17 April 2023
+* @@@BUILDINFO@@@ "Export Interior Pages - RGB JPGs.jsx" 1.1.0 10 May 2023
 */
 
 main();
@@ -34,7 +34,7 @@ function main() {
 	var current_document = app.activeDocument;
 	var current_document_lowercase_name = current_document.name.toLowerCase();
 	
-	// Check if the file name includes "interior pages", to make sure the user is running the right script.
+	// Check if the file name includes "interior", to make sure the user is running the right script.
 	if (!current_document_lowercase_name.includes("interior")) {
 		
 		if (confirm("Are you sure you're running the right export script?\r\nThis document doesn't include the word 'Interior' in its filename.")) {

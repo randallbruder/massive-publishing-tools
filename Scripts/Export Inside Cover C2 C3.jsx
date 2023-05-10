@@ -1,7 +1,7 @@
 // Export Inside Cover C2 C3.jsx
 // An InDesign Script for Whatnot Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Export Inside Cover C2 C3.jsx" 1.0.10 17 April 2023
+* @@@BUILDINFO@@@ "Export Inside Cover C2 C3.jsx" 1.1.0 10 May 2023
 */
 
 main();
@@ -57,7 +57,7 @@ function main() {
 	var current_document = app.activeDocument;
 	var current_document_lowercase_name = current_document.name.toLowerCase();
 	
-	// Check if the file name includes "interior pages", to make sure the user is running the right script.
+	// Check if the file name includes "inside cover", to make sure the user is running the right script.
 	if (!current_document_lowercase_name.includes("inside cover")) {
 		if (confirm("Are you sure you're running the right export script?\r\nThis document doesn't include 'Inside Cover' in its filename.")) {
 		} else { return; }
