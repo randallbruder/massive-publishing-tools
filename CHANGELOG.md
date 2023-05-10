@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.0] - 2023-05-10
+
+### Added
+
+- New script `Collect Font Files.jsx` for collecting all the fonts used in an InDesign document into a "Document fonts" folder
+
 ## [1.0.10] - 2023-04-17
 
 ### Fixed
