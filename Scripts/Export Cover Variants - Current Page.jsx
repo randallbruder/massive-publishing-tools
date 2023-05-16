@@ -1,7 +1,7 @@
 // Export Cover Variants - Current Page.jsx
 // An InDesign Script for Whatnot Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Export Cover Variants - Current Page.jsx" 1.1.0 10 May 2023
+* @@@BUILDINFO@@@ "Export Cover Variants - Current Page.jsx" 1.1.1 16 May 2023
 */
 
 main();

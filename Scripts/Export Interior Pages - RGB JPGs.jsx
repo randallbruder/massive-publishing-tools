@@ -1,7 +1,7 @@
 // Export Interior Pages - RGB JPGs.jsx
 // An InDesign Script for Whatnot Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Export Interior Pages - RGB JPGs.jsx" 1.1.0 10 May 2023
+* @@@BUILDINFO@@@ "Export Interior Pages - RGB JPGs.jsx" 1.1.1 16 May 2023
 */
 
 main();
@@ -55,8 +55,18 @@ function main() {
 		}
 	}
 	
-	// Ask user to select a folder to save the PDFs to
-	var export_folder = Folder.selectDialog("\r\nSelect a folder to save the JPGs to.\r\n");
+	// Check and see if the "03 RGB jpeg files" folder exists, relative to the open InDesign document's path
+	var export_folder = new Folder(current_document.filePath.parent + "/Interiors/03 RGB jpeg files");
+	if (export_folder.exists) {
+		if (confirm("\"03 RGB jpeg files\" Folder Found\r\nDo you want to use this folder to export to?")) {
+		} else {
+			// Ask user to select a folder to save the PDFs to
+			var export_folder = Folder.selectDialog("\r\nSelect a folder to save the JPGs to.\r\n");
+		}
+	} else {
+		// Ask user to select a folder to save the PDFs to
+		var export_folder = Folder.selectDialog("\r\nSelect a folder to save the JPGs to.\r\n");
+	}
 	
 	// Check if a folder was selected
 	if (export_folder != null) {
