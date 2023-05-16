@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1] - 2023-05-16
+
+### Added
+
+- The `Export Interior Pages - RGB JPGs.jsx` script now checks for the "03 RGB jpeg files" folder, and offers to save the RGB JPGs to that folder (rather than showing a folder picker)
+- If the folder isn't found, the script defaults back to showing a folder picker
+
 ## [1.1.0] - 2023-05-10
 
 ### Added
