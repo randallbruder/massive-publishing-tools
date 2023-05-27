@@ -1,7 +1,7 @@
 // Collect Font Files.jsx
 // An InDesign Script for Whatnot Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Collect Font Files.jsx" 1.1.1 16 May 2023
+* @@@BUILDINFO@@@ "Collect Font Files.jsx" 1.1.2 26 May 2023
 */
 
 main();

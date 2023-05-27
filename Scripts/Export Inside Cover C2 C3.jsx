@@ -1,7 +1,7 @@
 // Export Inside Cover C2 C3.jsx
 // An InDesign Script for Whatnot Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Export Inside Cover C2 C3.jsx" 1.1.1 16 May 2023
+* @@@BUILDINFO@@@ "Export Inside Cover C2 C3.jsx" 1.1.2 26 May 2023
 */
 
 main();
@@ -72,7 +72,7 @@ function main() {
 		if (confirm("Error\r\nThis document has Preflight errors. Are you sure you want to continue the export?", true)) {
 		} else {
 			// Open the Preflight panel and exit the script
-			app.panels.item('Preflight Panel').visible = true;
+			app.panels.item('Preflight').visible = true;
 			return;
 		}
 	}

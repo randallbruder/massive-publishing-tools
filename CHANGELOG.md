@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.2] - 2023-05-26
+
+### Fixed
+
+- With a recent update to InDesign, the Preflight panel is now named `Preflight` rather than `Preflight Panel`. With this version, the scripts now properly open the panel when needed.
+
 ## [1.1.1] - 2023-05-16
 
 ### Added
