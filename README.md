@@ -60,6 +60,12 @@ To install:
 
 &nbsp;
 
+## Installation (Windows)
+
+[See here ↗](https://www.apple.com/shop/buy-mac)
+
+&nbsp;
+
 ## Usage
 
 A script can be run using the Scripts panel in InDesign. If you don't already have the panel open as part of your workspace, you can find it in the menu under <ins>Window</ins> → <ins>Utilities</ins> → <ins>Scripts</ins>. There you'll be able to find the **Massive Publishing** folder of scripts under the **Application** folder.
