@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.0.0] - 2023-07-05
+
+### New
+
+- This is now a Massive Publishing project.
+
+### Fixed
+
+- In the `Collect Font Files.jsx` script, if the `Document fonts` folder doesn't exist already it will now be created.
+
 ## [1.1.2] - 2023-05-26
 
 ### Fixed
@@ -35,8 +45,8 @@
 
 ### Added
 
-- All scripts check and see if a "Whatnot Publishing" preflight profile is installed
-- Added error checking to all scripts to see if there are any Preflight errors, using the "Whatnot Publishing" preflight profile
+- All scripts check and see if a "Massive Publishing" preflight profile is installed
+- Added error checking to all scripts to see if there are any Preflight errors, using the "Massive Publishing" preflight profile
 
 ## [1.0.7] - 2023-03-21
 

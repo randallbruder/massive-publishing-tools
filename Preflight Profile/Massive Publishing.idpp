@@ -2,7 +2,7 @@
 <?aid style="50" type="snippet" readerVersion="6.0" featureSet="257" product="18.1(51)" ?>
 <?aid SnippetType="PreflightProfile"?>
 <Application DOMVersion="18.0">
-	<PreflightProfile Self="u48154" Name="Whatnot Publishing" Description="Preflight Profile for Whatnot Publishing comic print production">
+	<PreflightProfile Self="u48154" Name="Massive Publishing" Description="Preflight Profile for Massive Publishing comic print production">
 		<PreflightRuleInstance Self="u48476" Name="ADBE_BlankPages" Id="ADBE_BlankPages" Description="$ID/kBlankPagesRuleDescription" Flag="ReturnAsError">
 			<RuleDataObject Self="u48476RuleDataObjectnignore_master" Name="ignore_master" DataType="BooleanDataType" Id="ignore_master">
 				<Properties>

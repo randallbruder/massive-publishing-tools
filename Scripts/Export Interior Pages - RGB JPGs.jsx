@@ -1,7 +1,7 @@
 // Export Interior Pages - RGB JPGs.jsx
-// An InDesign Script for Whatnot Publishing, developed by Randall Bruder
+// An InDesign Script for Massive Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Export Interior Pages - RGB JPGs.jsx" 1.1.2 26 May 2023
+* @@@BUILDINFO@@@ "Export Interior Pages - RGB JPGs.jsx" 2.0.0 5 July 2023
 */
 
 main();
@@ -23,8 +23,8 @@ function main() {
 		return this.indexOf(search, start) !== -1;
 	};
 	
-	// Check and see if there is a Preflight Profile with the name Whatnot Publishing
-	var preflight_profile_name = "Whatnot Publishing";
+	// Check and see if there is a Preflight Profile with the name Massive Publishing
+	var preflight_profile_name = "Massive Publishing";
 	if (!app.preflightProfiles.itemByName(preflight_profile_name).isValid) {
 		alert("Error\r\nA Preflight Profile with the name \"" + preflight_profile_name + "\" was not found. Please make sure you install the preflight profile before running any of these export scripts.");
 		return;

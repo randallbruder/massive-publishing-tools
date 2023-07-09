@@ -1,7 +1,7 @@
 // Collect Font Files.jsx
-// An InDesign Script for Whatnot Publishing, developed by Randall Bruder
+// An InDesign Script for Massive Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Collect Font Files.jsx" 1.1.2 26 May 2023
+* @@@BUILDINFO@@@ "Collect Font Files.jsx" 2.0.0 5 July 2023
 */
 
 main();
@@ -37,31 +37,35 @@ function main() {
 	
 	// Find the Document fonts folder inside the packaged folder
 	var package_folder_fonts_folder = new Folder(package_folder + "/Document fonts");
-	if (package_folder_fonts_folder.exists) {
-		// Find the "Document fonts" folder in the original file's directory
-		var original_fonts_folder = new Folder(current_document_file_path + "/Document fonts");
-		if (original_fonts_folder.exists) {
-			// Copy all files from the "Document fonts" folder in the package to the original folder, then remove them
-			var files_to_copy = package_folder_fonts_folder.getFiles();
-			for (var i = 0; i < files_to_copy.length; i++) {
-				var file_to_copy = files_to_copy[i];
-				var new_file = new File(original_fonts_folder + "/" + file_to_copy.name);
-				file_to_copy.copy(new_file);
-				file_to_copy.remove();
-			}
-			// Remove the (now empty) Document fonts folder
-			package_folder_fonts_folder.remove();
-			
-			// Delete all files in the main packaged folder
-			var files_to_remove = package_folder.getFiles();
-			for (var i = 0; i < files_to_remove.length; i++) {
-				var file_to_remove = files_to_remove[i];
-				file_to_remove.remove();
-			}
-			
-			// Finally, remove the (now empty) packaged folder
-			package_folder.remove();
-		}
+	if (!package_folder_fonts_folder.exists) {
+		package_folder_fonts_folder.create();
 	}
+	
+	// Find the "Document fonts" folder in the original file's directory, if it doesn't exist, create it
+	var original_fonts_folder = new Folder(current_document_file_path + "/Document fonts");
+	if (!original_fonts_folder.exists) {
+		original_fonts_folder.create();
+	}
+	
+	// Copy all files from the "Document fonts" folder in the package to the original folder, then remove them
+	var files_to_copy = package_folder_fonts_folder.getFiles();
+	for (var i = 0; i < files_to_copy.length; i++) {
+		var file_to_copy = files_to_copy[i];
+		var new_file = new File(original_fonts_folder + "/" + file_to_copy.name);
+		file_to_copy.copy(new_file);
+		file_to_copy.remove();
+	}
+	// Remove the (now empty) Document fonts folder
+	package_folder_fonts_folder.remove();
+	
+	// Delete all files in the main packaged folder
+	var files_to_remove = package_folder.getFiles();
+	for (var i = 0; i < files_to_remove.length; i++) {
+		var file_to_remove = files_to_remove[i];
+		file_to_remove.remove();
+	}
+	
+	// Finally, remove the (now empty) packaged folder
+	package_folder.remove();
 	
 };

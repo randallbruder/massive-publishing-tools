@@ -2,17 +2,17 @@
 
 <p align="center">
 	<picture>
-		<source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/github/whatnot_white.svg">
-		<source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/github/whatnot_black.svg">
-		<img alt="Whatnot Publishing Logo" src="https://files.rb.gd/github/whatnot_black.svg" width="250">
+		<source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/github/massive_white.svg">
+		<source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/github/massive_black.svg">
+		<img alt="Massive Publishing Logo" src="https://files.rb.gd/github/massive_black.svg" width="250">
 	</picture>
 </p>
 
 &nbsp;
 
-# Whatnot Publishing Tools
+# Massive Publishing Tools
 
-This is a collection of scripts, export presets, templates, and a preflight profile for use with Adobe InDesign and Adobe Photoshop to help facilitate print production work on Whatnot Publishing comics.
+This is a collection of scripts, export presets, templates, and a preflight profile for use with Adobe InDesign and Adobe Photoshop to help facilitate print production work on Massive Publishing comics.
 
 &nbsp;
 
@@ -23,10 +23,10 @@ This is a collection of scripts, export presets, templates, and a preflight prof
 Move all five script files (`.jsx`) in the [Scripts](/Scripts/) folder to:
 
 ```
-/Applications/Adobe InDesign 2023/Scripts/Scripts Panel/Whatnot Publishing/
+/Applications/Adobe InDesign 2023/Scripts/Scripts Panel/Massive Publishing/
 ```
 
-You will need to create the **Whatnot Publishing** folder inside the **Scripts Panel** folder.
+You will need to create the **Massive Publishing** folder inside the **Scripts Panel** folder.
 
 > **Note**
 > The year in that path will differ depending on which version of Adobe InDesign you have installed.
@@ -38,7 +38,7 @@ When upgrading from a previous year's InDesign release to a new InDesign release
 
 ### <picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/github/export_presets.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/github/export_presets.svg"><img src="https://files.rb.gd/github/export_presets.svg" height="22" /></picture>&nbsp;&nbsp;Export Presets
 
-All scripts require having two export presets named exactly `Whatnot Publishing (HV, USA, Variants)` and `Whatnot Publishing (Transcon, Canada)`.
+All scripts require having two export presets named exactly `Massive Publishing (HV, USA, Variants)` and `Massive Publishing (Transcon, Canada)`.
 
 You can import the presets (or rename your existing presets) in InDesign by selecting in the menu <ins>File</ins> → <ins>Adobe PDF Presets</ins> → <ins>Define…</ins> and
 	
@@ -49,7 +49,7 @@ You can import the presets (or rename your existing presets) in InDesign by sele
 
 ### <picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/github/preflight_profile.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/github/preflight_profile.svg"><img src="https://files.rb.gd/github/preflight_profile.svg" height="22" /></picture>&nbsp;&nbsp;Preflight Profile
 
-One of the included tools is a Preflight profile for Whatnot Publishing comics, that is more aggressive than InDesign's default Preflight profile and can help catch more errors before exporting.
+One of the included tools is a Preflight profile for Massive Publishing comics, that is more aggressive than InDesign's default Preflight profile and can help catch more errors before exporting.
 
 To install:
 
@@ -62,7 +62,7 @@ To install:
 
 ## Usage
 
-A script can be run using the Scripts panel in InDesign. If you don't already have the panel open as part of your workspace, you can find it in the menu under <ins>Window</ins> → <ins>Utilities</ins> → <ins>Scripts</ins>. There you'll be able to find the **Whatnot Publishing** folder of scripts under the **Application** folder.
+A script can be run using the Scripts panel in InDesign. If you don't already have the panel open as part of your workspace, you can find it in the menu under <ins>Window</ins> → <ins>Utilities</ins> → <ins>Scripts</ins>. There you'll be able to find the **Massive Publishing** folder of scripts under the **Application** folder.
 
 To run a script, make sure you have the InDesign document you want to export currently open and focused. Then double-click the script you want to use in the Scripts panel.
 
@@ -75,10 +75,11 @@ To run a script, make sure you have the InDesign document you want to export cur
 
 - [X] ~~Include the InDesign template files and rename the repo~~
 - [X] ~~See if you can key into the Preflight checks, and show a warning if a user tries to run an export while the Preflight is reporting an error~~
-	- [X] ~~If possible, use specifically the "Whatnot Publishing" preflight profile, even if it's not the currently selected profile~~
+	- [X] ~~If possible, use specifically the "Massive Publishing" preflight profile, even if it's not the currently selected profile~~
 - [X] ~~Add error checking to the **Export Cover Variants** scripts to notify the user if a cover page is missing the `appliedSection.marker`~~
-- [ ] Eventually rename everything to Massive:
-	- [ ] The repo name
-	- [ ] Export Presets
-	- [ ] `hv_preset_name` and `transcon_preset_name` variables in each script
-	- [ ] This [README.md](README.md) file
+- [X] ~~Eventually rename everything to Massive:~~
+	- [X] ~~The repo name~~
+	- [X] ~~Export Presets~~
+	- [X] ~~`hv_preset_name` and `transcon_preset_name` variables in each script~~
+	- [X] ~~This [README.md](README.md) file~~
+- [ ] Add error checking to the **Export Interior Pages** script to check each of the linked interiors pages (any link inside of the `\Interiors\` folder) and check the number in the file name matches the page it's on

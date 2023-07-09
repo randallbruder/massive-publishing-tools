@@ -1,7 +1,7 @@
 // Export Cover Variants - Current Page.jsx
-// An InDesign Script for Whatnot Publishing, developed by Randall Bruder
+// An InDesign Script for Massive Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Export Cover Variants - Current Page.jsx" 1.1.2 26 May 2023
+* @@@BUILDINFO@@@ "Export Cover Variants - Current Page.jsx" 2.0.0 5 July 2023
 */
 
 main();
@@ -9,10 +9,10 @@ function main() {
 	
 	// Check if our two PDF Export Presets are properly installed
 	var hv_preset_found = false;
-	var hv_preset_name = "Whatnot Publishing (HV, USA, Variants)";
+	var hv_preset_name = "Massive Publishing (HV, USA, Variants)";
 	
 	var transcon_preset_found = false;
-	var transcon_preset_name = "Whatnot Publishing (Transcon, Canada)";
+	var transcon_preset_name = "Massive Publishing (Transcon, Canada)";
 	
 	for (var i=0; i<app.pdfExportPresets.count(); i++) {
 		if (app.pdfExportPresets[i].name == hv_preset_name) { hv_preset_found = true; }
@@ -30,8 +30,8 @@ function main() {
 		return;
 	}
 	
-	// Check and see if there is a Preflight Profile with the name Whatnot Publishing
-	var preflight_profile_name = "Whatnot Publishing";
+	// Check and see if there is a Preflight Profile with the name Massive Publishing
+	var preflight_profile_name = "Massive Publishing";
 	if (!app.preflightProfiles.itemByName(preflight_profile_name).isValid) {
 		alert("Error\r\nA Preflight Profile with the name \"" + preflight_profile_name + "\" was not found. Please make sure you install the preflight profile before running any of these export scripts.");
 		return;
