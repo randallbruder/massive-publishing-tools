@@ -69,7 +69,7 @@ function main() {
 	var preflight_results = preflight_checker.aggregatedResults[2]; // Store the results in a variable
 	
 	if (preflight_results.length > 0) {
-		if (confirm("Error\r\nThis document has Preflight errors. Are you sure you want to continue the export?", true)) {
+		if (confirm("Error\r\nThis document has Preflight errors. Do you want to continue the export?", true)) {
 		} else {
 			// Open the Preflight panel and exit the script
 			app.panels.item('Preflight').visible = true;
@@ -96,13 +96,13 @@ function main() {
 	}
 	
 	if (checkIfStringExists("Nolasca") > 0) {
-		if (confirm("Error\r\nThis document uses the wrong spelling of Angel Nolasco's name. Are you sure you want to continue the export?", true)) {
+		if (confirm("Error\r\nThis document uses the wrong spelling of Angel Nolasco's name. Do you want to continue the export?", true)) {
 		} else {
 			return;
 		}
 	}
 	if (checkIfStringExists("Simon Ore") > 0) {
-		if (confirm("Error\r\nThis document has Simon Oré's name without the acute accent in his last name. Are you sure you want to continue the export?", true)) {
+		if (confirm("Error\r\nThis document has Simon Oré's name without the acute accent in his last name. Do you want to continue the export?", true)) {
 		} else {
 			return;
 		}
