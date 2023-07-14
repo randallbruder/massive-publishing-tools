@@ -1,7 +1,7 @@
-// Export Inside Cover C2 C3.jsx
+﻿// Export Inside Cover C2 C3.jsx
 // An InDesign Script for Massive Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Export Inside Cover C2 C3.jsx" 2.0.0 5 July 2023
+* @@@BUILDINFO@@@ "Export Inside Cover C2 C3.jsx" 2.1.0 13 July 2023
 */
 
 main();
@@ -73,6 +73,37 @@ function main() {
 		} else {
 			// Open the Preflight panel and exit the script
 			app.panels.item('Preflight').visible = true;
+			return;
+		}
+	}
+	
+	// Function to check if a parameter-passed string exists in the document
+	function checkIfStringExists(searchString) {
+		// Set the find options.
+		app.findChangeTextOptions.caseSensitive = false;
+		app.findChangeTextOptions.includeFootnotes = true;
+		app.findChangeTextOptions.includeHiddenLayers = true;
+		app.findChangeTextOptions.includeLockedLayersForFind = true;
+		app.findChangeTextOptions.includeLockedLayersForFind = true;
+		app.findChangeTextOptions.includeMasterPages = true;
+		app.findTextPreferences.findWhat = searchString;
+		
+		var searchResults = current_document.findText();
+		// Reset the search options
+		app.findTextPreferences = NothingEnum.nothing;
+		
+		return searchResults.length;
+	}
+	
+	if (checkIfStringExists("Nolasca") > 0) {
+		if (confirm("Error\r\nThis document uses the wrong spelling of Angel Nolasco's name. Are you sure you want to continue the export?", true)) {
+		} else {
+			return;
+		}
+	}
+	if (checkIfStringExists("Simon Ore") > 0) {
+		if (confirm("Error\r\nThis document has Simon Oré's name without the acute accent in his last name. Are you sure you want to continue the export?", true)) {
+		} else {
 			return;
 		}
 	}

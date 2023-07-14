@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.1.0] - 2023-07-14
+
+### New
+
+- The `Export Inside Cover C2 C3.jsx` script now can search to see if certain specific strings exist in the document and show a warning.
+
+### Fixed
+
+- Scripts now have the text encoding Unicode (UTF-8) with BOM, which allows for displaying foreign characters in alert dialogs.
+
 ## [2.0.0] - 2023-07-05
 
 ### New
