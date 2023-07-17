@@ -1,7 +1,7 @@
 ﻿// Export Interior Pages.jsx
 // An InDesign Script for Massive Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Export Interior Pages.jsx" 2.1.0 13 July 2023
+* @@@BUILDINFO@@@ "Export Interior Pages.jsx" 2.2.0 17 July 2023
 */
 
 main();
@@ -75,6 +75,62 @@ function main() {
 			app.panels.item('Preflight').visible = true;
 			return;
 		}
+	}
+	
+	/*
+	 * Check Interiors linked files to see if the number in the file name matches the page number it's placed on
+	 */
+	var current_document_links = current_document.links;
+	var links_where_number_doesnt_match_page_number = [];
+	
+	for (var i = 0; i < current_document_links.length; i++) {
+		var file_path = current_document_links[i].filePath;
+		
+		// Check if "Interiors" is present in the file path
+		if (file_path.indexOf("Interiors") !== -1) {
+			var file_name = current_document_links[i].name;
+			var page_number = current_document_links[i].parent.parentPage.documentOffset + 1;
+			var file_number = null;
+			var page_number_found = false;
+			
+			// Extract the numbers from the file name
+			var number_matches = file_name.match(/\d+/g);
+			
+			// Extract any number ranges (two numbers separate by a hyphen) from the file name
+			var number_range_matches = file_name.match(/\d+-\d+/g);
+			
+			// If any number ranges were found, let's check that first
+			if (number_range_matches) {
+				// Extract the individual numbers from the last number range in the file name
+				var numbers_from_number_range_matches = number_range_matches[number_range_matches.length - 1].match(/\d+/g);
+				
+				// Check and see if the two numbers of the number range in the file name are within 1 digit of each other,
+				// which likely means it's a full spread, so we'll save the second to last number as the `file_number`
+				if (parseInt(numbers_from_number_range_matches[numbers_from_number_range_matches.length - 2], 10) === parseInt(numbers_from_number_range_matches[numbers_from_number_range_matches.length - 1], 10) - 1) {
+					file_number = parseInt(numbers_from_number_range_matches[numbers_from_number_range_matches.length - 2], 10);
+					page_number_found = true;	
+				}
+			}
+			
+			// If we don't have a page number yet, check the individual number matches
+			if (number_matches && !page_number_found) {
+				file_number = parseInt(number_matches[number_matches.length - 1], 10);
+			}
+			
+			// Compare the number found from the file name against the page the link is placed on
+			if (file_number !== null && file_number !== page_number) {
+				links_where_number_doesnt_match_page_number.push("\"" + file_name + "\", placed on page " + page_number);
+			}
+		}
+	}
+	
+	if (links_where_number_doesnt_match_page_number.length > 1) {
+		var links_string = links_where_number_doesnt_match_page_number.join("\r\n");
+		confirm("Error\r\nSome of the interior pages in this document might be placed on the wrong pages?\r\n\r\nCheck links:\r\n" + links_string + "\r\nand see if they're placed on the correct pages.\r\n\r\nDo you want to continue the export?", true);
+		return;
+	} else if (links_where_number_doesnt_match_page_number.length == 1) {
+		confirm("Error\r\One of the interior pages in this document might be placed on the wrong page?\r\n\r\nCheck the link:\r\n" + links_where_number_doesnt_match_page_number.join("") + "\r\nand see if it's placed on the correct page.\r\n\r\nDo you want to continue the export?", true);
+		return;
 	}
 	
 	// Ask user to select a folder to save the PDFs to

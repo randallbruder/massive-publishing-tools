@@ -1,7 +1,7 @@
 ﻿// Export Interior Pages - RGB JPGs.jsx
 // An InDesign Script for Massive Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Export Interior Pages - RGB JPGs.jsx" 2.1.0 13 July 2023
+* @@@BUILDINFO@@@ "Export Interior Pages - RGB JPGs.jsx" 2.2.0 17 July 2023
 */
 
 main();

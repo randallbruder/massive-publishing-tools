@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.2.0] - 2023-07-17
+
+### New
+
+- The `Export Interior Pages.jsx` script now checks the the Interiors linked files to see if the number in the file name matches the page number it's placed on.
+
 ## [2.1.0] - 2023-07-14
 
 ### New
