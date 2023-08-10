@@ -20,7 +20,7 @@ This is a collection of scripts, export presets, templates, and a preflight prof
 
 ### <picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/github/scripts.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/github/scripts.svg"><img src="https://files.rb.gd/github/scripts.svg" height="22" /></picture>&nbsp;&nbsp;Scripts
 
-Move all six script files (`.jsx`) in the [Scripts](/Scripts/) folder to:
+Move all six script files (`.jsx`) in the [InDesign Scripts](/InDesign%20Scripts/) folder to:
 
 ```
 /Applications/Adobe InDesign 2023/Scripts/Scripts Panel/Massive Publishing/
