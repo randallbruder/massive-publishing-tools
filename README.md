@@ -18,7 +18,7 @@ This is a collection of scripts, export presets, templates, and a preflight prof
 
 ## Installation (macOS)
 
-### <picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/github/scripts.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/github/scripts.svg"><img src="https://files.rb.gd/github/scripts.svg" height="22" /></picture>&nbsp;&nbsp;Scripts
+### <picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/github/scripts.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/github/scripts.svg"><img src="https://files.rb.gd/github/scripts.svg" height="22" /></picture>&nbsp;&nbsp; InDesign Scripts
 
 Move all six script files (`.jsx`) in the [InDesign Scripts](/InDesign%20Scripts/) folder to:
 
