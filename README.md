@@ -32,7 +32,7 @@ You will need to create the **Massive Publishing** folder inside the **Scripts P
 > The year in that path will differ depending on which version of Adobe InDesign you have installed.
 
 > **Warning**
-When upgrading from a previous year's InDesign release to a new InDesign release, the scripts will have to be copied over.
+When upgrading from a previous year's InDesign release to a new InDesign release, you will manually have to copy over the scripts to the new install folder.
 
 ---
 
@@ -74,7 +74,7 @@ The script will only appear in Photoshop once you quit and relaunch the applicat
 > The year in that path will differ depending on which version of Adobe Photoshop you have installed.
 
 > **Warning**
-When upgrading from a previous year's Photoshop release to a new Photoshop release, the scripts will have to be copied over.
+When upgrading from a previous year's Photoshop release to a new Photoshop release, you will manually have to copy over the scripts to the new install folder.
 
 &nbsp;
 
