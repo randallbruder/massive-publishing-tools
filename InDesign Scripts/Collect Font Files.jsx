@@ -1,7 +1,7 @@
-﻿// Collect Font Files.jsx
+// Collect Font Files.jsx
 // An InDesign Script for Massive Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Collect Font Files.jsx" 2.2.0 17 July 2023
+* @@@BUILDINFO@@@ "Collect Font Files.jsx" 2.3.0 16 August 2023
 */
 
 main();
