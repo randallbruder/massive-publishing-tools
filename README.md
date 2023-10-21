@@ -65,7 +65,7 @@ To install:
 Copy the script file (`.jsx`) in the [Photoshop Scripts](/Photoshop%20Scripts/) folder to:
 
 ```
-/Applications/Adobe Photoshop 2023/Presets/Scripts/
+/Applications/Adobe Photoshop 2024/Presets/Scripts/
 ```
 
 The script will only appear in Photoshop once you quit and relaunch the application.
