@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.3.0] - 2023-10-21
+
+### New
+
+- New Photoshop script `Massive Publishing - Save All Open Covers as Print Ready TIFFs.jsx` to export trade dressed covers as print ready flattened TIFFs.
+
 ## [2.2.0] - 2023-07-17
 
 ### New
