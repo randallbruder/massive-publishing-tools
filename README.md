@@ -20,7 +20,7 @@ This is a collection of scripts, export presets, templates, and a preflight prof
 
 ### <picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/github/scripts.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/github/scripts.svg"><img src="https://files.rb.gd/github/scripts.svg" height="22" /></picture>&nbsp;&nbsp; InDesign Scripts
 
-Move all six script files (`.jsx`) in the [InDesign Scripts](/InDesign%20Scripts/) folder to:
+Copy all six script files (`.jsx`) in the [InDesign Scripts](/InDesign%20Scripts/) folder to:
 
 ```
 /Applications/Adobe InDesign 2023/Scripts/Scripts Panel/Massive Publishing/
@@ -36,9 +36,9 @@ When upgrading from a previous year's InDesign release to a new InDesign release
 
 ---
 
-### <picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/github/export_presets.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/github/export_presets.svg"><img src="https://files.rb.gd/github/export_presets.svg" height="22" /></picture>&nbsp;&nbsp;Export Presets
+### <picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/github/export_presets.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/github/export_presets.svg"><img src="https://files.rb.gd/github/export_presets.svg" height="22" /></picture>&nbsp;&nbsp;InDesign Export Presets
 
-All scripts require having two export presets named exactly `Massive Publishing (HV, USA, Variants)` and `Massive Publishing (Transcon, Canada)`.
+Most of the InDesign scripts require having two export presets named exactly `Massive Publishing (HV, USA, Variants)` and `Massive Publishing (Transcon, Canada)`.
 
 You can import the presets (or rename your existing presets) in InDesign by selecting in the menu <ins>File</ins> → <ins>Adobe PDF Presets</ins> → <ins>Define…</ins> and
 	
@@ -47,7 +47,7 @@ You can import the presets (or rename your existing presets) in InDesign by sele
 
 ---
 
-### <picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/github/preflight_profile.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/github/preflight_profile.svg"><img src="https://files.rb.gd/github/preflight_profile.svg" height="22" /></picture>&nbsp;&nbsp;Preflight Profile
+### <picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/github/preflight_profile.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/github/preflight_profile.svg"><img src="https://files.rb.gd/github/preflight_profile.svg" height="22" /></picture>&nbsp;&nbsp;InDesign Preflight Profile
 
 One of the included tools is a Preflight profile for Massive Publishing comics, that is more aggressive than InDesign's default Preflight profile and can help catch more errors before exporting.
 
@@ -57,6 +57,24 @@ To install:
 * From the panel's menu <picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/github/menu.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/github/menu.svg"><img src="https://files.rb.gd/github/menu.svg" width="16" /></picture> select <ins>Define Profiles…</ins>
 * In the Preflight Profiles window that appears, again select the menu <picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/github/menu.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/github/menu.svg"><img src="https://files.rb.gd/github/menu.svg" width="16" /></picture> and choose <ins>Load Profile…</ins>
 * Then select the `.idpp` file found in the [Preflight Profile](/Preflight%20Profile/) folder
+
+---
+
+### <picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/github/scripts.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/github/scripts.svg"><img src="https://files.rb.gd/github/scripts.svg" height="22" /></picture>&nbsp;&nbsp; Photoshop Scripts
+
+Copy the script file (`.jsx`) in the [Photoshop Scripts](/Photoshop%20Scripts/) folder to:
+
+```
+/Applications/Adobe Photoshop 2023/Presets/Scripts/
+```
+
+The script will only appear in Photoshop once you quit and relaunch the application.
+
+> **Note**
+> The year in that path will differ depending on which version of Adobe Photoshop you have installed.
+
+> **Warning**
+When upgrading from a previous year's Photoshop release to a new Photoshop release, the scripts will have to be copied over.
 
 &nbsp;
 
