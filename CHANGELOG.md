@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.3.1] - 2023-10-29
+
+### Fixed
+
+- Fixed a bug in the `Export Interior Pages.jsx` script's page number checking warning.
+
 ## [2.3.0] - 2023-10-21
 
 ### New

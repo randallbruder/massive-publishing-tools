@@ -1,7 +1,7 @@
 ﻿// Export Interior Pages.jsx
 // An InDesign Script for Massive Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Export Interior Pages.jsx" 2.3.0 16 August 2023
+* @@@BUILDINFO@@@ "Export Interior Pages.jsx" 2.3.1 29 October 2023
 */
 
 main();
@@ -126,11 +126,11 @@ function main() {
 	
 	if (links_where_number_doesnt_match_page_number.length > 1) {
 		var links_string = links_where_number_doesnt_match_page_number.join("\r\n");
-		confirm("Error\r\nSome of the interior pages in this document might be placed on the wrong pages?\r\n\r\nCheck links:\r\n" + links_string + "\r\nand see if they're placed on the correct pages.\r\n\r\nDo you want to continue the export?", true);
-		return;
+		if (confirm("Error\r\nSome of the interior pages in this document might be placed on the wrong pages?\r\n\r\nCheck links:\r\n" + links_string + "\r\nand see if they're placed on the correct pages.\r\n\r\nDo you want to continue the export?", true)) {
+		} else { return; }
 	} else if (links_where_number_doesnt_match_page_number.length == 1) {
-		confirm("Error\r\One of the interior pages in this document might be placed on the wrong page?\r\n\r\nCheck the link:\r\n" + links_where_number_doesnt_match_page_number.join("") + "\r\nand see if it's placed on the correct page.\r\n\r\nDo you want to continue the export?", true);
-		return;
+		if (confirm("Error\r\One of the interior pages in this document might be placed on the wrong page?\r\n\r\nCheck the link:\r\n" + links_where_number_doesnt_match_page_number.join("") + "\r\nand see if it's placed on the correct page.\r\n\r\nDo you want to continue the export?", true)) {
+		} else { return; }
 	}
 	
 	// Ask user to select a folder to save the PDFs to

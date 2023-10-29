@@ -1,7 +1,7 @@
 // Save All Open Covers as Print Ready TIFFs.jsx
 // A Photoshop Script for Massive Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Massive Publishing - Save All Open Covers as Print Ready TIFFs.jsx" 2.3.0 16 August 2023
+* @@@BUILDINFO@@@ "Massive Publishing - Save All Open Covers as Print Ready TIFFs.jsx" 2.3.1 29 October 2023
 */
 
 main();
