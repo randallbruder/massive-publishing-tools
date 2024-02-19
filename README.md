@@ -38,12 +38,14 @@ When upgrading from a previous year's InDesign release to a new InDesign release
 
 ### <picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/github/export_presets.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/github/export_presets.svg"><img src="https://files.rb.gd/github/export_presets.svg" height="22" /></picture>&nbsp;&nbsp;InDesign Export Presets
 
-Most of the InDesign scripts require having two export presets named exactly `Massive Publishing (HV, USA, Variants)` and `Massive Publishing (Transcon, Canada)`.
+Most of the InDesign scripts require having two export presets named *exactly* `Massive Publishing (HV, USA, Variants)` and `Massive Publishing (Transcon, Canada)`.
 
-You can import the presets (or rename your existing presets) in InDesign by selecting in the menu <ins>File</ins> → <ins>Adobe PDF Presets</ins> → <ins>Define…</ins> and
+Additionally, there's a third export preset named `Massive Publishing (Omnibus, Digital RGB PDF)` for exporting a digital PDF for the Omnibus platform.
+
+You can import the presets (or rename your existing presets) in InDesign by selecting in the menu <ins>File</ins> → <ins>Adobe PDF Presets</ins> → <ins>Define…</ins> and either:
 	
 * Use the <picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/github/button_edit.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/github/button_edit.svg"><img src="https://files.rb.gd/github/button_edit.svg" width="60" /></picture> button to rename your existing presets to the correct names,
-* or <picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/github/button_load.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/github/button_load.svg"><img src="https://files.rb.gd/github/button_load.svg" width="60" /></picture> to import the two `.joboptions` files found in the [Export Presets](/Export%20Presets/) folder.
+* or <picture><source media="(prefers-color-scheme: dark)" srcset="https://files.rb.gd/github/button_load.svg"><source media="(prefers-color-scheme: light)" srcset="https://files.rb.gd/github/button_load.svg"><img src="https://files.rb.gd/github/button_load.svg" width="60" /></picture> to import the three `.joboptions` files found in the [Export Presets](/Export%20Presets/) folder.
 
 ---
 

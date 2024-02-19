@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.3.2] - 2024-02-19
+
+### New
+
+- Added a new export preset for an RGB PDF, to deliver digital comics to Omnibus
+
 ## [2.3.1] - 2023-10-29
 
 ### Fixed
