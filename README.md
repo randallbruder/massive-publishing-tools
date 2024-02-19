@@ -109,4 +109,4 @@ To run a script, make sure you have the InDesign document you want to export cur
 	- [X] ~~`hv_preset_name` and `transcon_preset_name` variables in each script~~
 	- [X] ~~This [README.md](README.md) file~~
 - [X] ~~Add error checking to the **Export Interior Pages** script to check each of the linked interiors pages (any link inside of the `\Interiors\` folder) and check the number in the file name matches the page it's on~~
-- [ ] Write a script to export a complete comic (from three open InDesign files) as a web ready .PDF
+- [X] ~~Write a script to export a complete comic (from three open InDesign files) as a web ready .PDF~~
