@@ -8,7 +8,7 @@
   /AntiAliasColorImages false
   /AntiAliasGrayImages false
   /AntiAliasMonoImages false
-  /AutoFilterColorImages true
+  /AutoFilterColorImages false
   /AutoFilterGrayImages true
   /AutoPositionEPSFiles true
   /AutoRotatePages /All
@@ -22,17 +22,17 @@
   ]
   /ColorACSImageDict <<
     /HSamples [
+      2
       1
       1
-      1
-      1
+      2
     ]
-    /QFactor 0.15000
+    /QFactor 0.76000
     /VSamples [
+      2
       1
       1
-      1
-      1
+      2
     ]
   >>
   /ColorConversionStrategy /sRGB
@@ -40,22 +40,22 @@
   /ColorImageDepth -1
   /ColorImageDict <<
     /HSamples [
+      2
       1
       1
-      1
-      1
+      2
     ]
-    /QFactor 0.15000
+    /QFactor 0.76000
     /VSamples [
+      2
       1
       1
-      1
-      1
+      2
     ]
   >>
   /ColorImageDownsampleThreshold 1
   /ColorImageDownsampleType /Bicubic
-  /ColorImageFilter /DCTEncode
+  /ColorImageFilter /FlateEncode
   /ColorImageMinDownsampleDepth 1
   /ColorImageMinResolution 300
   /ColorImageMinResolutionPolicy /OK
@@ -63,7 +63,7 @@
   /ColorSettingsFile ()
   /CompatibilityLevel 1.4
   /CompressObjects /Tags
-  /CompressPages true
+  /CompressPages false
   /ConvertImagesToIndexed true
   /CreateJDFFile false
   /CreateJobTicket false
@@ -85,8 +85,8 @@
   /EmbedJobOptions true
   /EmbedOpenType false
   /EmitDSCWarnings false
-  /EncodeColorImages true
-  /EncodeGrayImages true
+  /EncodeColorImages false
+  /EncodeGrayImages false
   /EncodeMonoImages true
   /EndPage -1
   /GrayACSImageDict <<
