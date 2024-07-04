@@ -59,7 +59,7 @@
   /ColorImageMinDownsampleDepth 1
   /ColorImageMinResolution 300
   /ColorImageMinResolutionPolicy /OK
-  /ColorImageResolution 300
+  /ColorImageResolution 150
   /ColorSettingsFile ()
   /CompatibilityLevel 1.4
   /CompressObjects /Tags
@@ -127,7 +127,7 @@
   /GrayImageMinDownsampleDepth 2
   /GrayImageMinResolution 300
   /GrayImageMinResolutionPolicy /OK
-  /GrayImageResolution 300
+  /GrayImageResolution 150
   /ImageMemory 1048576
   /JPEG2000ColorACSImageDict <<
     /Quality 30
