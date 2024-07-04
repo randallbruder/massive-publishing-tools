@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.3.3] - 2024-07-04
+
+### New
+
+- Updated the Photoshop script (now named `Massive Publishing - Save All Open Covers as Print Ready TIFFs and Web JPGs.jsx`) to also export the covers as 750px wide, 150dpi JPGs in a `/04 Web Versions/` folder
+
+- Added a new `Cover Gatefold Template.indd` InDesign template
+
+- Modifying the Omnibus Export Preset to 150dpi
+
 ## [2.3.2] - 2024-02-19
 
 ### New
