@@ -1,7 +1,7 @@
 // Export Cover Variants - All.jsx
 // An InDesign Script for Massive Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Export Cover Variants - All.jsx" 2.3.4 18 March 2025
+* @@@BUILDINFO@@@ "Export Cover Variants - All.jsx" 2.4.1 18 March 2025
 */
 
 main();
