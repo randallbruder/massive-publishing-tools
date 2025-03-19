@@ -1,7 +1,7 @@
 ﻿// Export Interior Pages.jsx
 // An InDesign Script for Massive Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Export Interior Pages.jsx" 2.3.3 4 July 2024
+* @@@BUILDINFO@@@ "Export Interior Pages.jsx" 2.3.4 18 March 2025
 */
 
 main();
@@ -60,6 +60,12 @@ function main() {
 	// Check if the file name includes "interior", to make sure the user is running the right script.
 	if (!current_document_lowercase_name.includes("interior")) {
 		if (confirm("Are you sure you're running the right export script?\r\nThis document doesn't include the word 'Interior' in its filename.")) {
+		} else { return; }
+	}
+	
+	// Check to make sure the document's page count is a multiple of 4
+	if (current_document.pages.length % 4 !== 0) {
+		if (confirm("Warning\r\nThis document has " + current_document.pages.length + " pages, which isn't a multiple of 4. Do you want to continue the export?", true)) {
 		} else { return; }
 	}
 	

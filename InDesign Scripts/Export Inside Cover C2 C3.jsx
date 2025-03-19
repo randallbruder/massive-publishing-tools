@@ -1,7 +1,7 @@
 // Export Inside Cover C2 C3.jsx
 // An InDesign Script for Massive Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Export Inside Cover C2 C3.jsx" 2.3.3 4 July 2024
+* @@@BUILDINFO@@@ "Export Inside Cover C2 C3.jsx" 2.3.4 18 March 2025
 */
 
 main();
