@@ -1,5 +1,32 @@
 # Changelog
 
+## [2.4.2] - 2025-03-30
+
+### Added
+
+- Switching the Trade Dressing Template to use a smart object for the issue number
+
+## [2.4.1] - 2025-03-18
+
+### Added
+
+- Interior export scripts now check to make sure the page count is a multiple of 4
+
+
+## [2.4.0] - 2024-09-28
+
+### New
+
+- Added a blank Photoshop template file for a full spread with bleeds
+
+- Added a new InDesign template file for trade paperback covers
+
+- Modifying the various templates to remove WN template options
+
+### Fixed
+
+- Updated naming of parent pages in the interior pages InDesign doc for clarity
+
 ## [2.3.3] - 2024-07-04
 
 ### New
