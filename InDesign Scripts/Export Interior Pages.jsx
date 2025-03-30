@@ -1,7 +1,7 @@
 ﻿// Export Interior Pages.jsx
 // An InDesign Script for Massive Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Export Interior Pages.jsx" 2.4.1 18 March 2025
+* @@@BUILDINFO@@@ "Export Interior Pages.jsx" 2.4.2 30 March 2025
 */
 
 main();
