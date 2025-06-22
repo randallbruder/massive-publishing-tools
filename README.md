@@ -23,7 +23,7 @@ This is a collection of scripts, export presets, templates, and a preflight prof
 Copy all six script files (`.jsx`) in the [InDesign Scripts](/InDesign%20Scripts/) folder to:
 
 ```
-/Applications/Adobe InDesign 2024/Scripts/Scripts Panel/Massive Publishing/
+/Applications/Adobe InDesign 2025/Scripts/Scripts Panel/Massive Publishing/
 ```
 
 You will need to create the **Massive Publishing** folder inside the **Scripts Panel** folder.
@@ -67,7 +67,7 @@ To install:
 Copy the script file (`.jsx`) in the [Photoshop Scripts](/Photoshop%20Scripts/) folder to:
 
 ```
-/Applications/Adobe Photoshop 2024/Presets/Scripts/
+/Applications/Adobe Photoshop 2025/Presets/Scripts/
 ```
 
 The script will only appear in Photoshop once you quit and relaunch the application.
