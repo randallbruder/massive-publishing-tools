@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.4.3] - 2025-06-23
+
+### Fixed
+
+- Modified the Photoshop script to export the web covers' resolution based on height rather than width, for the rare wraparound cover
+
 ## [2.4.2] - 2025-03-30
 
 ### Added
