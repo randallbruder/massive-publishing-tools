@@ -4,17 +4,9 @@
 %BeginFont
 Handler:DirectoryHandler
 FontType:Invalid
-OutlineFileName:/Users/randallbruder/Good Done Daily Dropbox/Randall Bruder/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/.DS_Store
-FileLength:6148
-FileModTime:730017021
-%EndFont
-
-%BeginFont
-Handler:DirectoryHandler
-FontType:Invalid
-OutlineFileName:/Users/randallbruder/Good Done Daily Dropbox/Randall Bruder/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/AdobeFnt24.lst
-FileLength:10605
-FileModTime:750887492
+OutlineFileName:/Users/randallbruder/Library/CloudStorage/Dropbox/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/AdobeFnt24.lst
+FileLength:10196
+FileModTime:772344075
 %EndFont
 
 %BeginFont
@@ -30,7 +22,7 @@ WidthClass:3
 AngleClass:0
 FullName:Avenir Next Condensed Bold
 WritingScript:Roman
-OutlineFileName:/Users/randallbruder/Good Done Daily Dropbox/Randall Bruder/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/Avenir Next Condensed.ttc
+OutlineFileName:/Users/randallbruder/Library/CloudStorage/Dropbox/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/Avenir Next Condensed.ttc
 TTCOffset:72
 DataFormat:sfntData
 hasSVG:no
@@ -38,7 +30,7 @@ hasSBIX:no
 hasCOLR:no
 VariableFontType:NonVariableFont
 FileLength:3288644
-FileModTime:730017296
+FileModTime:772344072
 NameArray:0,Mac,18,Avenir Next Condensed Bold
 NameArray:0,Mac,4,Avenir Next Condensed Bold
 NameArray:0,Win,1,Avenir Next Condensed
@@ -58,7 +50,7 @@ WidthClass:3
 AngleClass:1
 FullName:Avenir Next Condensed Bold Italic
 WritingScript:Roman
-OutlineFileName:/Users/randallbruder/Good Done Daily Dropbox/Randall Bruder/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/Avenir Next Condensed.ttc
+OutlineFileName:/Users/randallbruder/Library/CloudStorage/Dropbox/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/Avenir Next Condensed.ttc
 TTCOffset:372
 DataFormat:sfntData
 hasSVG:no
@@ -66,7 +58,7 @@ hasSBIX:no
 hasCOLR:no
 VariableFontType:NonVariableFont
 FileLength:3288644
-FileModTime:730017296
+FileModTime:772344072
 NameArray:0,Mac,18,Avenir Next Condensed Bold Italic
 NameArray:0,Mac,4,Avenir Next Condensed Bold Italic
 NameArray:0,Win,1,Avenir Next Condensed
@@ -86,7 +78,7 @@ WidthClass:3
 AngleClass:0
 FullName:Avenir Next Condensed Demi Bold
 WritingScript:Roman
-OutlineFileName:/Users/randallbruder/Good Done Daily Dropbox/Randall Bruder/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/Avenir Next Condensed.ttc
+OutlineFileName:/Users/randallbruder/Library/CloudStorage/Dropbox/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/Avenir Next Condensed.ttc
 TTCOffset:672
 DataFormat:sfntData
 hasSVG:no
@@ -94,7 +86,7 @@ hasSBIX:no
 hasCOLR:no
 VariableFontType:NonVariableFont
 FileLength:3288644
-FileModTime:730017296
+FileModTime:772344072
 NameArray:0,Mac,18,Avenir Next Condensed Demi Bold
 NameArray:0,Mac,4,Avenir Next Condensed Demi Bold
 NameArray:0,Win,1,Avenir Next Condensed Demi Bold
@@ -114,7 +106,7 @@ WidthClass:3
 AngleClass:1
 FullName:Avenir Next Condensed Demi Bold Italic
 WritingScript:Roman
-OutlineFileName:/Users/randallbruder/Good Done Daily Dropbox/Randall Bruder/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/Avenir Next Condensed.ttc
+OutlineFileName:/Users/randallbruder/Library/CloudStorage/Dropbox/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/Avenir Next Condensed.ttc
 TTCOffset:972
 DataFormat:sfntData
 hasSVG:no
@@ -122,7 +114,7 @@ hasSBIX:no
 hasCOLR:no
 VariableFontType:NonVariableFont
 FileLength:3288644
-FileModTime:730017296
+FileModTime:772344072
 NameArray:0,Mac,18,Avenir Next Condensed Demi Bold Italic
 NameArray:0,Mac,4,Avenir Next Condensed Demi Bold Italic
 NameArray:0,Win,1,Avenir Next Condensed Demi Bold
@@ -142,7 +134,7 @@ WidthClass:3
 AngleClass:0
 FullName:Avenir Next Condensed Heavy
 WritingScript:Roman
-OutlineFileName:/Users/randallbruder/Good Done Daily Dropbox/Randall Bruder/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/Avenir Next Condensed.ttc
+OutlineFileName:/Users/randallbruder/Library/CloudStorage/Dropbox/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/Avenir Next Condensed.ttc
 TTCOffset:2472
 DataFormat:sfntData
 hasSVG:no
@@ -150,7 +142,7 @@ hasSBIX:no
 hasCOLR:no
 VariableFontType:NonVariableFont
 FileLength:3288644
-FileModTime:730017296
+FileModTime:772344072
 NameArray:0,Mac,18,Avenir Next Condensed Heavy
 NameArray:0,Mac,4,Avenir Next Condensed Heavy
 NameArray:0,Win,1,Avenir Next Condensed Heavy
@@ -170,7 +162,7 @@ WidthClass:3
 AngleClass:0
 FullName:Avenir Next Condensed Heavy Italic
 WritingScript:Roman
-OutlineFileName:/Users/randallbruder/Good Done Daily Dropbox/Randall Bruder/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/Avenir Next Condensed.ttc
+OutlineFileName:/Users/randallbruder/Library/CloudStorage/Dropbox/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/Avenir Next Condensed.ttc
 TTCOffset:2772
 DataFormat:sfntData
 hasSVG:no
@@ -178,7 +170,7 @@ hasSBIX:no
 hasCOLR:no
 VariableFontType:NonVariableFont
 FileLength:3288644
-FileModTime:730017296
+FileModTime:772344072
 NameArray:0,Mac,18,Avenir Next Condensed Heavy Italic
 NameArray:0,Mac,4,Avenir Next Condensed Heavy Italic
 NameArray:0,Win,1,Avenir Next Condensed Heavy
@@ -198,7 +190,7 @@ WidthClass:3
 AngleClass:1
 FullName:Avenir Next Condensed Italic
 WritingScript:Roman
-OutlineFileName:/Users/randallbruder/Good Done Daily Dropbox/Randall Bruder/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/Avenir Next Condensed.ttc
+OutlineFileName:/Users/randallbruder/Library/CloudStorage/Dropbox/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/Avenir Next Condensed.ttc
 TTCOffset:1272
 DataFormat:sfntData
 hasSVG:no
@@ -206,7 +198,7 @@ hasSBIX:no
 hasCOLR:no
 VariableFontType:NonVariableFont
 FileLength:3288644
-FileModTime:730017296
+FileModTime:772344072
 NameArray:0,Mac,18,Avenir Next Condensed Italic
 NameArray:0,Mac,4,Avenir Next Condensed Italic
 NameArray:0,Win,1,Avenir Next Condensed
@@ -226,7 +218,7 @@ WidthClass:3
 AngleClass:0
 FullName:Avenir Next Condensed Medium
 WritingScript:Roman
-OutlineFileName:/Users/randallbruder/Good Done Daily Dropbox/Randall Bruder/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/Avenir Next Condensed.ttc
+OutlineFileName:/Users/randallbruder/Library/CloudStorage/Dropbox/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/Avenir Next Condensed.ttc
 TTCOffset:1572
 DataFormat:sfntData
 hasSVG:no
@@ -234,7 +226,7 @@ hasSBIX:no
 hasCOLR:no
 VariableFontType:NonVariableFont
 FileLength:3288644
-FileModTime:730017296
+FileModTime:772344072
 NameArray:0,Mac,18,Avenir Next Condensed Medium
 NameArray:0,Mac,4,Avenir Next Condensed Medium
 NameArray:0,Win,1,Avenir Next Condensed Medium
@@ -254,7 +246,7 @@ WidthClass:3
 AngleClass:0
 FullName:Avenir Next Medium Condensed Italic
 WritingScript:Roman
-OutlineFileName:/Users/randallbruder/Good Done Daily Dropbox/Randall Bruder/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/Avenir Next Condensed.ttc
+OutlineFileName:/Users/randallbruder/Library/CloudStorage/Dropbox/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/Avenir Next Condensed.ttc
 TTCOffset:1872
 DataFormat:sfntData
 hasSVG:no
@@ -262,7 +254,7 @@ hasSBIX:no
 hasCOLR:no
 VariableFontType:NonVariableFont
 FileLength:3288644
-FileModTime:730017296
+FileModTime:772344072
 NameArray:0,Mac,18,Avenir Next Condensed Medium Italic
 NameArray:0,Mac,4,Avenir Next Condensed Medium Italic
 NameArray:0,Win,1,Avenir Next Condensed Medium
@@ -282,7 +274,7 @@ WidthClass:3
 AngleClass:0
 FullName:Avenir Next Condensed Regular
 WritingScript:Roman
-OutlineFileName:/Users/randallbruder/Good Done Daily Dropbox/Randall Bruder/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/Avenir Next Condensed.ttc
+OutlineFileName:/Users/randallbruder/Library/CloudStorage/Dropbox/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/Avenir Next Condensed.ttc
 TTCOffset:2172
 DataFormat:sfntData
 hasSVG:no
@@ -290,7 +282,7 @@ hasSBIX:no
 hasCOLR:no
 VariableFontType:NonVariableFont
 FileLength:3288644
-FileModTime:730017296
+FileModTime:772344072
 NameArray:0,Mac,18,Avenir Next Condensed Regular
 NameArray:0,Mac,4,Avenir Next Condensed Regular
 NameArray:0,Win,1,Avenir Next Condensed
@@ -310,7 +302,7 @@ WidthClass:3
 AngleClass:0
 FullName:Avenir Next Condensed Ultra Light
 WritingScript:Roman
-OutlineFileName:/Users/randallbruder/Good Done Daily Dropbox/Randall Bruder/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/Avenir Next Condensed.ttc
+OutlineFileName:/Users/randallbruder/Library/CloudStorage/Dropbox/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/Avenir Next Condensed.ttc
 TTCOffset:3072
 DataFormat:sfntData
 hasSVG:no
@@ -318,7 +310,7 @@ hasSBIX:no
 hasCOLR:no
 VariableFontType:NonVariableFont
 FileLength:3288644
-FileModTime:730017296
+FileModTime:772344072
 NameArray:0,Mac,18,Avenir Next Condensed Ultra Light
 NameArray:0,Mac,4,Avenir Next Condensed Ultra Light
 NameArray:0,Win,1,Avenir Next Condensed Ultra Light
@@ -338,7 +330,7 @@ WidthClass:3
 AngleClass:0
 FullName:Avenir Next Condensed Ultra Light Italic
 WritingScript:Roman
-OutlineFileName:/Users/randallbruder/Good Done Daily Dropbox/Randall Bruder/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/Avenir Next Condensed.ttc
+OutlineFileName:/Users/randallbruder/Library/CloudStorage/Dropbox/Projects/Massive Publishing/massive-publishing-tools/Issue #/InDesign Builds/Document fonts/Avenir Next Condensed.ttc
 TTCOffset:3372
 DataFormat:sfntData
 hasSVG:no
@@ -346,7 +338,7 @@ hasSBIX:no
 hasCOLR:no
 VariableFontType:NonVariableFont
 FileLength:3288644
-FileModTime:730017296
+FileModTime:772344072
 NameArray:0,Mac,18,Avenir Next Condensed Ultra Light Italic
 NameArray:0,Mac,4,Avenir Next Condensed Ultra Light Italic
 NameArray:0,Win,1,Avenir Next Condensed Ultra Light
