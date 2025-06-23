@@ -1,7 +1,7 @@
 // Export Cover Variants - Current Page.jsx
 // An InDesign Script for Massive Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Export Cover Variants - Current Page.jsx" 2.4.2 30 March 2025
+* @@@BUILDINFO@@@ "Export Cover Variants - Current Page.jsx" 2.4.3 23 June 2025
 */
 
 main();

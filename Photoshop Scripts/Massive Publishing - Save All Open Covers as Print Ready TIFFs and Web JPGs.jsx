@@ -1,7 +1,7 @@
 // Save All Open Covers as Print Ready TIFFs.jsx
 // A Photoshop Script for Massive Publishing, developed by Randall Bruder
 /*  
-* @@@BUILDINFO@@@ "Massive Publishing - Save All Open Covers as Print Ready TIFFs and Web JPGs.jsx" 2.3.3 4 July 2024
+* @@@BUILDINFO@@@ "Massive Publishing - Save All Open Covers as Print Ready TIFFs and Web JPGs.jsx" 2.4.3 23 June 2025
 */
 
 main();
@@ -58,12 +58,14 @@ function main() {
 			var doc = app.documents[i];
 			var originalDoc = doc.duplicate();
 			
-			// Resize document to 750px wide
-			var targetWidth = 750;
+			// Resize document to 750px by 113px wide
+			// Using height here now, for some rare wraparound covers
+			var targetHeight = 1138;
 			var targetResolution = 150;
-			var targetHeight = (doc.height / doc.width) * targetWidth;
+			var targetWidth = (doc.width / doc.height) * targetHeight;
 			originalDoc.flatten();
 			originalDoc.resizeImage(UnitValue(targetWidth, "px"), UnitValue(targetHeight, "px"), targetResolution, ResampleMethod.BICUBIC);
+			originalDoc.changeMode(ChangeMode.RGB);
 			
 			// Prepare JPEG save options
 			var jpegOptions = new JPEGSaveOptions();
