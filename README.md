@@ -40,7 +40,7 @@ When upgrading from a previous year's InDesign release to a new InDesign release
 
 Most of the InDesign scripts require having two export presets named *exactly* `Massive Publishing (HV, USA, Variants)` and `Massive Publishing (Transcon, Canada)`.
 
-Additionally, there's a third export preset named `Massive Publishing (Omnibus, Digital RGB PDF)` for exporting a digital PDF for the Omnibus platform.
+Additionally, there's a third export preset named `Massive Publishing (Digital RGB PDF)` for exporting a 150dpi RGB digital PDF.
 
 You can import the presets (or rename your existing presets) in InDesign by selecting in the menu <ins>File</ins> → <ins>Adobe PDF Presets</ins> → <ins>Define…</ins> and either:
 	
