@@ -50,15 +50,28 @@ function main() {
 				app.activeDocument.saveAs(new File(targetFolderPath + app.activeDocument.name), saveOptions, true);
 			}
 			
+			
 			/*
 			 * Save a lower res JPG version
 			 */
 			
-			
 			var doc = app.documents[i];
 			var originalDoc = doc.duplicate();
 			
-			// Resize document to 750px by 113px wide
+			// Calculate bleed in pixels
+			var bleedInches = 0.125;
+			var bleedPixels = Math.floor(bleedInches * doc.resolution);
+			
+			// Define crop rectangle (left, top, right, bottom), and crop in
+			var cropRect = [
+				bleedPixels,
+				bleedPixels,
+				doc.width.as("px") - bleedPixels,
+				doc.height.as("px") - bleedPixels
+			];
+			originalDoc.crop(cropRect);
+			
+			// Resize document to 750px by 1138px wide
 			// Using height here now, for some rare wraparound covers
 			var targetHeight = 1138;
 			var targetResolution = 150;
